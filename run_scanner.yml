@@ -2,7 +2,7 @@ name: BTC Scanner
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Chạy mỗi giờ
+    - cron: '02 * * * *'  # Chạy mỗi giờ
   workflow_dispatch:     # Cho phép chạy thủ công
 
 jobs:
